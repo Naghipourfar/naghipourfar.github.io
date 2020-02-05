@@ -44,12 +44,9 @@ sidebar:
 career-profile:
     title: Brief Introduction
     summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
-      Second paragraph if required.
+      Hi! I'm Mohsen. Right now, I am a computer engineering B.Sc. student and research assistant at bAIo lab under supervision of [Dr. Ali Sharifi-Zarchi](http://ce.sharif.edu/faculty/ali-sharifi-zarchi/) in Sharif University of Technology. I am also research assistant under supervision of [Prof. Fabian Theis](https://www.helmholtz-muenchen.de/icb/institute/staff/staff/ma/2494/index.html) at ML group of Institute of Computational Biology (ICB), Helmholtz Zentrum Munich.
+
+        My research interests are **Computational Biology**, **Deep Learning** and its applications in other areas like **Computer Vision** and **Natual Language Processing**.
 
 education:
     - degree: MSc in Computer Science
