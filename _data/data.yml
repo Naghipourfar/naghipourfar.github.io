@@ -64,43 +64,88 @@ education:
         I have studied mathematics and physics in [AE highschool](http://www.aehighschool.com/). During my diploma studies, I have done some Robocup projects such as 2D soccer simulation, building air drone and etc. We have attended to numerous competetions including Sharif Cup, Iran open and International Robocup challenge.
 
 experiences:
-    - role: Lead Developer
-      time: 2015 - Present
-      company: Startup Hubs, San Francisco
+    - role: Research Assistant
+      time: December 2018 - Present
+      company: Helmholtz Zentrum Munich - Institute of Computational Biology (ICB)
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-        enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-        error sit voluptatem accusantium doloremque laudantium, totam rem
-        aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-        architecto beatae vitae dicta sunt explicabo.
-          - Bullet point
-          - Bullet point
-    - role: Senior Software Engineer
-      time: 2014 - 2015
-      company: Google, London
+        From December 2018, I joined machine learning group at ICB under supervision of **[Prof. Fabian J. Theis](https://www.helmholtz-muenchen.de/icb/institute/staff/staff/ma/2494/Prof.%20Dr.%20Dr.-Theis/index.html)**. I started working as research assistant in deep learning remotely. I was researching in applications of deep generative models in single-cell world. We developed novel deep learning architectures and compared them with various state-of-the art models like scVI and SAUCIE on single-cell data. We have also been researching on transfer learning and a novel technique in deep learning called architecture surgery. The projects I have been working on are:
+
+        **[scGen](https://www.nature.com/articles/s41592-019-0494-8)**: scGen is a deep generative model used for single-cell perturbation prediction across cell types, studies and species. It was published in **Nature Methods** in July 2019. I was working on scGen reproducibility and make a tensorflow-based package for scGen since it was submitted before I joined the group.
+
+        **[trVAE](https://arxiv.org/abs/1910.01791)**: After scGen project we extended scGen with a novel deep learning architecture called trVAE which is submitted to **Nature Machine Intelligence**. trVAE is also a deep generative model which learns mapping between multiple different styles (conditions). trVAE can be used for style transfer in images, predciting single-cell perturbations responses and batch removal.
+
+    - role: Research Assistant
+      time: December 2017 - Present
+      company: bAIo-lab, Sharifi University of Technology
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
-          - Bullet point
-          - Bullet point
-    - role: UI Developer
-      time: 2012 - 2014
-      company: Amazon, London
+        I joined bAIo lab
+            under supervision of [Dr. Ali Sharifi Zarchi](http://ce.sharif.edu/faculty/ali-sharifi-zarchi/). I have done several projects at bAIo lab including:
+
+        **[FSNN](https://github.com/Naghipourfar/Feature-Selection)**: In this project, we used simple random feature selection on [TCGA](https://www.cancer.gov/about-nci/organization/ccg/research/structural-genomics/tcga) gene expression dataset in order to select K (K < 50) features. Then we used a simple MLP classifier on preprocessed dataset. The network's accuracy on 37 cancer types was 93.2% which was comparative to netowrk's accuracy on dataset without selecting a small subset. The goal of the project was to compare results of the networks and classical machine learning algorithms and propose an information theoric proof for the problem.
+
+        **[DrugNet](https://github.com/Naghipourfar/DrugNet)**: DrugNet is a deep learning architecture which is used to predict drug efficacy on cancer cell lines. In this project, We have used [CCLE](https://portals.broadinstitute.org/ccle), [GDSC](https://www.cancer.gov/about-nci/organization/ccg/research/structural-genomics/tcga) and [CMap](https://www.broadinstitute.org/connectivity-map-cmap) dataset in order to train our network.
+
+        **DrugGeNet**: DrugGeNet is a deep generative model which is used to perform style transfer on cancer cell lines after specific concentration of drug injected to that cell line.
+
+        **[SeqLearner](http://seqlearner.readthedocs.io)**: SeqLearner is a multitask learning package for semi-supervised learning on biological sequences SeqLearner is a high-level API, written in Python and capable of running on different embedding methods such as Freq2Vec, Word2Vec, Sent2Vec and etc. It also provides some visualizations to analyze the embedding.
+
+    - role: Research Assistant
+      time: June 2018 - March 2019
+      company: Digital Media Lab (DML) - Sharif University of Technology
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
-          - Bullet point
-          - Bullet point
+        I joined [Digital Media Lab (DML)](http://dml.ir) under supervision of [Prof. Hamid R. Rabiee](http://sharif.edu/~rabiee/) as a research assistant. I have done several projects in DML
+
+        **[HiCPack](http://hicpack.readthedocs.io)**: HiCPack is a python-based package for analyzing Hi-C data. HiCPack accepts SRR numbers (or fastq files) as input and download its corresponding fastq files automatically. Then it will execute analysis steps such as alignment, builing raw contact maps, normalization, background correction, TAD calling and visualization.
+
+        **CED**: CED (Convolution Encoder Decoder) is a deep learning architecture used for removing artifacts in MEG data which is a functional neuroimaging technique for mapping brain activity by recording magnetic fields produced by electrical currents occurring naturally in the brain, using very sensitive magnetometers.   Removing Artifacts from MEG data using deep convolutional encoder decoder networks(CED). (Summer 2018)
+
+    - role: Research Intern
+      time: June 2018 - September 2018
+      company: Blockchain Innovation Lab
+      details: |
+        I was working on applications of deep learning architectures in cryptocurrency price prediction during summer 2018. BNL is a lab researching in blockchain technology and build and publish blockchain-based patents in Iran.
+
+        **[TraderBot](https://github.com/Naghipourfar/TraderBot)**: This Project makes use of the state-of-art Deep Learning algorithm to predict the price of Bitcoin, which has the potential to generalize to other cryptocurrency. It leverages models such as CNN and RNN implemented by Keras running on top of Tensorflow.
+
+    - role: Research Intern
+      time: June 2018 - September 2018
+      company: HumanGene Pars
+      details: |
+        I worked on Haplo-type Phasing in HLA genes and chrM using Iranian patients dataset during summer 2018 under supervision of Dr. S. Abolfazl Motahari.
+
+    - role: Teacher Assistant
+      time: September 2016 - Present
+      company: Sharif Univeristy of Technology
+      details: |
+        **Spring 2018:**
+        + Machine Learning in Bioinformatics (Graduate Course)
+
+        **Fall 2018:**
+        + Introduction to Bioinformatics (Graduate Course)
+        + Probability and Statistics
+        + Fundamental Programming in Python
+
+        **Spring 2018:**
+        + Probability and Statistics
+        + Data Structures and Algorithms
+        + Advanced Programming in Java
+
+        **Fall 2017:**
+        + Probability and Statistics
+        + Fundamental Programming in Python
+        + Fundamental Programming in C/C++
+
+        **Spring 2017**
+        + Probability and Statistics
+        + Advanced Programming in Java
+        + Fundamental Programming in C/C++
+
+        **Fall 2016**
+        + Advanced Programming in Java
+        + Fundamental Programming in C/C++
+
+
+
 projects:
     title: Projects
     intro: >
