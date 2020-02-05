@@ -49,28 +49,20 @@ career-profile:
         My research interests are **Computational Biology**, **Deep Learning** and its applications in other areas like **Computer Vision** and **Natual Language Processing**.
 
 education:
-    - degree: MSc in Computer Science
-      university: University of London
-      time: 2011 - 2012
+    - degree: BSc in Computer Engineering
+      university: Sharif University of Technology
+      time: 2015 - 2020
       details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
-          - Bullet point
-          - Bullet point
-    - degree: BSc in Applied Mathematics
-      university: Bristol University
-      time: 2007 - 2011
+        I'm studying computer (software) Engineering at [Computer Engineering Department](http://ce.sharif.edu/). I expect to graduate in February 2020.
+
+        **Notable Courses:** Probability and Statistics, Artificial Intelligence, Introduction to Bioinformatics (Graduate Course), Deep Learning (Graduate Course).
+
+    - degree: Diploma in Mathematics & Physics
+      university: AE Highschool
+      time: 2011 - 2015
       details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
-          - Bullet point
-          - Bullet point
+        I have studied mathematics and physics in [AE highschool](http://www.aehighschool.com/). During my diploma studies, I have done some Robocup projects such as 2D soccer simulation, building air drone and etc. We have attended to numerous competetions including Sharif Cup, Iran open and International Robocup challenge.
+
 experiences:
     - role: Lead Developer
       time: 2015 - Present
